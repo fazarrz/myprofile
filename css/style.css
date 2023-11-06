@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f9;
+    color: #696cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h2{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f9;
+}
+
+.container{
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    height: 650px;
+    box-shadow: 0 12px 18px rgba(54, 176, 138, 0.005);
+    border-radius: 6px;
+    background-color: #ffff;
+}
+
+section.bio-short{
+    width: 35%;
+    padding: 3%;
+
+}
+
+section.bio-preview{
+    width: 70%;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #696cff;
+  
+
+}
+
+section.bio-short .profile-short{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.bio-short .profile-short h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section.bio-short .profile-short img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section.bio-short .profile-short-detail{
+    margin-top: 40px;
+}
+section.bio-short .profile-short-detail .title-short,
+section.bio-short .profile-short-detail .social-media .title-sosmed{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section.bio-short .profile-short-detail .description-short{
+    font-size: 15px;
+    font-weight: 400;
+    color: #696969;
+}
+
+section.bio-short .profile-short-detail .description-short p{
+    margin-bottom: 8px;
+}
+
+section.bio-short .profile-short-detail .social-media{
+    margin-top: 25px;
+}
+
+section.bio-short .profile-short-detail .social-media .sosmed{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section.bio-short .profile-short-detail .social-media .sosmed a{
+    margin-right: 15px;
+    font-size: 20px;
+    background-color: #696cff;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section.bio-preview .preview{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px 0 10px;
+}
+
+section.bio-preview .preview .title-preview{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffff;
+}
+
+section.bio-preview .preview .description-preview{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffff;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+section.bio-preview .preview .description-preview p{
+    margin-bottom: 8px;
+    line-height: 1.5; 
+    text-align: justify;
+}
+
+footer#copyright{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #696cff;
+}
